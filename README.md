@@ -1,7 +1,3 @@
-# intro-to-IM
-Intro to IM
-
-**bold**
-*italics*
-
-new paragraph (by blank line)
+## Introduction to Interactive Media (IM-UH 1010)
+# New York University Abu Dhabi
+# Professor Michael Shiloh
