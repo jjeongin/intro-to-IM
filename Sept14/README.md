@@ -1,4 +1,4 @@
-## Loop Art Using Processing 🌃
+## 🌃 Loop Art Using Processing
 
 
 ![](loop-art-gif.gif)
@@ -10,6 +10,8 @@ Medium: Digital Art
 Dimension: 900 x 700 pixels
 
 Description: Portrayal of ever-lasting city lights
+
+
 
 - Work Process
   - Came up with color palette using Adobe Color
