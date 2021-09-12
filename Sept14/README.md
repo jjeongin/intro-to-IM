@@ -1,10 +1,15 @@
 ## Loop Art Using Processing 🌃
 
+
 ![](loop-art-gif.gif)
 
-***City of Stars,*** 2021
-Digital
-Portrayal of ever-lasting city lights
+***City,*** 2021
+
+Medium: Digital Art
+
+Dimension: 900 x 700 pixels
+
+Description: Portrayal of ever-lasting city lights
 
 - Work Process
   - Came up with color palette using Adobe Color
