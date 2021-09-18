@@ -19,7 +19,7 @@ Description: Portrayal of ever-lasting city lights
   - Added rotation feature
   - Exported as gif using saveFrame()
 
-- Difficulties & Experiements
+- Difficulties & Experiments
   -  To amplify the dynamics and playfulness of the artwork, I tried experimenting with the speed of rotation and the angle of each rows.
   -  I used cos() and sin() functions to draw each line according to its assigned angle.
   -  To export the output as a gif, I saved each frame by saveFrame() and converted the images into gif at Exgif.com.
