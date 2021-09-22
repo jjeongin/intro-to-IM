@@ -1,9 +1,9 @@
-## Generative Art Using Processing 🔻🔹🔸
+## 🔻🔹🔸 Generative Art Using Processing
 
 
-![](generative_art_1.PNG)
-![](generative_art_2.PNG)
-![](generative_art_3.PNG)
+![](generative_art_1.png)
+![](generative_art_2.png)
+![](generative_art_3.png)
 
 ***Shape Study***
 
