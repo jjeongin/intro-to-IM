@@ -559,6 +559,7 @@ int sprites_h;
 SoundFile beginning_sound;
 SoundFile death_sound;
 PFont ArcadeClassic;
+PShape logo;
 int current_frame;
 
 boolean start;
@@ -583,6 +584,9 @@ void setup() {
     }
   }
   
+  // load logo img
+  logo = loadShape(path + "/images/logo.svg");
+  
   // load sound files
   beginning_sound = new SoundFile(this, path + "/sound/intro.aiff");
   death_sound = new SoundFile(this, path + "/sound/death.aiff");
@@ -603,8 +607,12 @@ void draw() {
   }
   else {
     background(10);
+    //text("IM   PAC-MAN  (<", width/2, height/2); // tried text logo
+    shape(logo, width/2 - width/10*4, 50, width/5*4, height/5*2); // display logo image
+    textSize(30);
+    text("IM", width/8*6, height/5*3);
     textSize(20);
-    text("PRESS   ANY   KEY   TO   START", width/2, height/3*2);
+    text("PRESS   ANY   KEY   TO   START\n ARROW   KEY   TO   MOVE", width/2, height/5*4);
   }
 }
 
@@ -612,9 +620,7 @@ void keyPressed() {
   if (game.check_end() == true) { // if game ended, user can restart by pressing any key
     game = new Game();
     start = true;
-    //current_frame = frameCount;
     beginning_sound.play();
-    //if (current_frame+40 == frameCount)
     loop();
   }
   
