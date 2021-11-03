@@ -1,9 +1,8 @@
 ## 🔻🔹🔸 Generative Art Using Processing
 
-
-![](generative_art_1.png)
-![](generative_art_2.png)
-![](generative_art_3.png)
+<img src="generative_art_1.png" width=200px/>
+<img src="generative_art_2.png" width=200px/>
+<img src="generative_art_3.png" width=200px/>
 
 ***Shape Study***
 
