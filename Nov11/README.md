@@ -1,4 +1,4 @@
-## 🎄🔴🟢 Digital Christmas Tree
+## 🎄 Digital Christmas Tree
 
 
 
@@ -11,7 +11,7 @@ https://user-images.githubusercontent.com/68997923/141360374-e6a8ba3f-1f1c-43dd-
 
 ***Digital Christmas Tree***
 
-Description: Digital Christmas tree for happy early Christmas
+Description: 🔴 Digital Christmas tree for happy early Christmas 🟢
 
 - Schematics
 <img src="digital_xmas_tree_schematics.jpg" width=400px/>
