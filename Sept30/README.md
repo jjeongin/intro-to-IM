@@ -1,26 +1,18 @@
-##  Data Visualization
+## ☄️💫 Data Visualization
 
-<img src="generative_art_1.png" width=200px/>
-<img src="generative_art_2.png" width=200px/>
-<img src="generative_art_3.png" width=200px/>
+***Data Visualization of Meteorites***
 
-***Shape Study***
-
-Medium: Generative Art
-
-Dimension: 500 x 700 pixels
-
-Description: Geometric Shape Experiment in Processing. Inspired by Henri Matisse's paintings
-
+Description: Data visualization of meteorites that has landed on Earth throught the history
 
 - Work Process
-  - Came up with color palette using Adobe Color
-  - Added Star class that generates each star shape
-  - Used translate() and rotate() to get each coordinate of spikes of a star shape
+  - Loaded & Processed data from csv files
+  - Converted latitude & longitude to Cartesian coordinates (reference: https://stackoverflow.com/questions/1185408/converting-from-longitude-latitude-to-cartesian-coordinates)
+  - Plotted each coordinate in the sphere and enabled users to rotate the sphere with their mouse
 
 - Difficulties & Experiments
-  -  The biggest difficulty was to generate each dynamic star shape in an aesthetically pleasing way.
-  -  Tried using beginShape() & endShape() to generate my own shape but more accurate mathmetical calculation must be needed for more dynamic composition.
+  -  It was challenging to draw a sphere at first since it was my first time using P3D, but it turned out to be a very rewarding experience.
+  -  For the future improvement, a function that displays each country on the globe can help making the visualization more informative.
 
-- Reference
-  - Iconic Star Shapes in Henri Matisse's paintings
+- Datasets
+  - Meteorite landing history (https://www.kaggle.com/nasa/meteorite-landings)
+  - Country coordinates (https://www.kaggle.com/parulpandey/world-coordinates)
