@@ -6,7 +6,7 @@ Description: Data visualization of meteorites that has landed on Earth throught 
 
 - Work Process
   - Loaded & Processed data from csv files
-  - Converted latitude & longitude to Cartesian coordinates (reference: https://stackoverflow.com/questions/1185408/converting-from-longitude-latitude-to-cartesian-coordinates)
+  - Converted latitude & longitude to Cartesian coordinates referring to [this](https://stackoverflow.com/questions/1185408/converting-from-longitude-latitude-to-cartesian-coordinates) stackoverflow post
   - Plotted each coordinate in the sphere and enabled users to rotate the sphere with their mouse
 
 - Difficulties & Experiments
@@ -14,5 +14,5 @@ Description: Data visualization of meteorites that has landed on Earth throught 
   -  For the future improvement, a function that displays each country on the globe can help making the visualization more informative.
 
 - Datasets
-  - Meteorite landing history (https://www.kaggle.com/nasa/meteorite-landings)
-  - Country coordinates (https://www.kaggle.com/parulpandey/world-coordinates)
+  - [Meteorite landing history](https://www.kaggle.com/nasa/meteorite-landings)
+  - [Country coordinates](https://www.kaggle.com/parulpandey/world-coordinates)
