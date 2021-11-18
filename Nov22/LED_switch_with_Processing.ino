@@ -55,6 +55,7 @@ void loop() {
 }
 
 /*
+   Processing Code
 // LED switch that controls LED on Arduino Uno
 
 import processing.serial.*;
