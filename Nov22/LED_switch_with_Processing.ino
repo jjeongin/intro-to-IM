@@ -56,6 +56,9 @@ void loop() {
 
 /*
    Processing Code
+// Program Description: LED switch that controls LED on Arduino Uno
+// Creator Name: Jeongin Lee
+// Created Date: Nov 18, 2021
 // LED switch that controls LED on Arduino Uno
 
 import processing.serial.*;
@@ -80,11 +83,11 @@ void draw() {
   rect(0, 0, COUNTER, height); // visualize switch
   
   if (arduinoIsReady && COUNTER == width) { // if counter reached end
-    lightLED = true; // turn on LED is true
+    lightLED = true; // light up LED 
     arduinoIsReady = false;
   }
   else if (arduinoIsReady && COUNTER == 0) {
-    lightLED = false; // turn on LED is false
+    lightLED = false; // turn off LED
     arduinoIsReady = false;
   }
   
@@ -105,5 +108,10 @@ void keyPressed() {
     if (COUNTER > 0)
       COUNTER -= 10; // decrease the counter with right arrow
   }
+}
+
+void serialEvent(Serial myPort) { // check if arduino is ready
+  String s=myPort.readStringUntil('\n');
+  arduinoIsReady = true;
 }
 */
