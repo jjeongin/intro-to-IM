@@ -1,10 +1,10 @@
 # Final Project Prompt
 
-## Main Idea
-Generative artwork on screen with Processing using user information from Arduino analog inputs
+## Concept
+Generative artwork with the theme of solar system with Processing using user input from Arduino photo resister. 🔭
 
-## Project Description
+## Arduino
+Arduino program will allow users to control the graphic/animation generated from Processing using photo resister as analog input. The program will send the light information to the Processing program and also visualize the brightness of the input light with LEDs using digital output.
 
-## Inspiration
-
-## Plan
+## Processing
+If the light is bright, Processing program will present animation inspired by the bright space scape. As the light gets deemer, the graphic will change accordingly.
