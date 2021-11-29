@@ -8,7 +8,9 @@ Inspiration (the exhibition I have visited in [Arte Museum, South Korea](https:/
 
 
 
-https://user-images.githubusercontent.com/68997923/143828185-957eb533-74a3-4a2c-b801-2a0bf9d0767d.MOV
+
+https://user-images.githubusercontent.com/68997923/143828761-0e813276-1fa7-4550-8604-8b99bc75e5a6.MOV
+
 
 
 
