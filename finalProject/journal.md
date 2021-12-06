@@ -1,28 +1,23 @@
 # Final Project Prompt
 
-## Concept
+#### Concept
 Generative artwork with the theme of light & space with Processing using user input from Arduino photo resister.
 
 Inspiration (the exhibition I have visited in [Arte Museum, South Korea](https://artemuseum.com/)) :
 
 
-
-
-
-
-
-## Arduino
+#### Arduino
 Arduino program will allow users to control the graphic/animation generated from Processing using photo resister as analog input. The program will send the light information to the Processing program and also visualize the brightness of the input light with LEDs using digital output. ( + Arduino program might also play interesting background music with digital output. )
 
-## Processing
+#### Processing
 If the light is bright, Processing program will present animation inspired by the bright space scape. As the light gets deemer, the graphic will change accordingly.
 
-## Challenges
+#### Challenges
 Trickiest & most essential part will be to make dynamic and interesting random-generated graphic on Processing. To achieve this, I plan to research other generative artworks and experiment to find the interesting graphic.
 
 
-## DEC. 7th
-- Biggest Challenge:
+# DEC. 7th
+### Biggest Challenge:
 My initial plan was to use **live video captures** of audiences from cameras and use them to generate 3D graphics to make the piece more interactive & interesting. The problem was that Processing doesn't yet allow to use video capture when using other renderers (OPENGL which I need for 3D Graphic) than default! I tried almost every possible ways that I could imagine & find from internet but haven't found a solution yet. Here are some methods I tried:
 - Using video.start() and video.stop() to restart and stop video capturing everytime I need to capture a new image.
 - Using hint() to enable and disable z-buffers
@@ -31,7 +26,7 @@ My initial plan was to use **live video captures** of audiences from cameras and
 
 In the end, I gave up on using video capture and 3D in the same sketch and decided to use sample capture images that I got from my webcam during developing process. Later, I will try to get real time images from the camera using other ways than directly using Processing.
 
-- Current Stage:
+### Current Stage and Demos:
 - 3D Ver.
 
 
@@ -39,7 +34,7 @@ In the end, I gave up on using video capture and 3D in the same sketch and decid
 
 
 
-- Further Improvements:
+### Further Improvements:
 My main goal for this project is to visualize the relationship between *light, time, and us* and come up with an interesting visualization that changes in real time based on two elements: the images of viewers and the amount of light coming into the LDR sensor. To achieve this, I think I will have to work more on following things before the deadline.
 - Making rotation of the graphic smoother & automatic
 - What should the **LDR sensor** do? Which value should it adjust? (currently decides depth)
