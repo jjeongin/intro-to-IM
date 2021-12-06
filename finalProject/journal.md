@@ -27,12 +27,25 @@ My initial plan was to use **live video captures** of audiences from cameras and
 In the end, I gave up on using video capture and 3D in the same sketch and decided to use sample capture images that I got from my webcam during developing process. Later, I will try to get real time images from the camera using other ways than directly using Processing.
 
 ### Current Stage and Demos:
+So I currently have two versions of Processing codes using **(1) static images with 3D graphics** and **(2) live video captures with 2D graphics**, but I am leaning towards the first version. 3D version adjusts depth of the dots based on the LDR sensor value.
+
 - 3D Ver.
+
+<img src="3d_screenshot.png" width="800px">
+
+https://user-images.githubusercontent.com/68997923/144938448-a8eaa0c3-ad52-4cec-90d1-c7ed70f4fac2.mov
 
 
 - Live Viedo Ver.
 
 
+Using Dots
+
+<img src="live_vid_dots.png" width="800px">
+
+Using Lines
+
+<img src="live_vid_line.png" width="800px">
 
 ### Further Improvements:
 My main goal for this project is to visualize the relationship between *light, time, and us* and come up with an interesting visualization that changes in real time based on two elements: the images of viewers and the amount of light coming into the LDR sensor. To achieve this, I think I will have to work more on following things before the deadline.
