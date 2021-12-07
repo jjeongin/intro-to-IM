@@ -56,6 +56,6 @@ My main goal for this project is to visualize the relationship between *light, t
 - Maybe some background musics to make it more immersive?
 
 ### Extra Equipments:
-- Kinetic ?
+- Kinect ?
 - Large Screen
 - LDR box
