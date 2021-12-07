@@ -55,3 +55,7 @@ My main goal for this project is to visualize the relationship between *light, t
 - How to make interaction between users and the LDR sensor more approchable and resillient (custom box that hides rest of the Arduino components and only shows the LDR sensor on the top?) or Adding some LEDs to make the Arduino board itself more visible and interesting
 - Maybe some background musics to make it more immersive?
 
+### Extra Equipments:
+- Kinetic ?
+- Large Screen
+- LDR box
