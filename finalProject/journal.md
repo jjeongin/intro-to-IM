@@ -59,3 +59,8 @@ My main goal for this project is to visualize the relationship between *light, t
 - Kinect ?
 - Large Screen
 - LDR box
+
+# ERROR LOG
+- Open Kinect Library didn't work in Processing 4 !
+  -  NoClassDefFoundError: /com/sun/jna/Library
+  -  Solution: After googling, I referred to [this answer](https://discourse.processing.org/t/processing-4-openkinect/32781) and solved the error by copying jna.jar file in video/library folder to openkinect_processing/library folder.
