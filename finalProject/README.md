@@ -1,12 +1,14 @@
 # ***Light, Space, and Us*** (2021)
-Description: Light determines how we perceive the visual world around us and our place in this ever-changing space that we belong in. The animation changes in real-time based on two elements: the images of viewers and the amount of light coming into the LDR sensor on Arduino. By covering or uncovering the sensor, viewers are invited to this imaginary three-dimensional space that will encourage them to reimagine the relationship between light, space, and us.
+### Description:
 
-See [journal.md](journal.md) for more detailed creative and technical process.
+Light determines how we perceive the visual world around us and our place in this ever-changing space that we belong in. The animation changes in real-time based on two elements: the images of viewers and the amount of light coming into the LDR sensor on Arduino. By covering or uncovering the sensor, viewers are invited to this imaginary three-dimensional space that will encourage them to reimagine the relationship between light, space, and us.
+
+- See [journal.md](journal.md) for the detailed creative process.
 
 ### Notes on Exhibition:
 My final work was exhibited in IM Showcase 2021 at NYUAD's Art Center on Dec. 15th. For the final setup, I used an extra monitor, Kinect, and Arduino with my MacBook Pro.
 
-### Demos:
+### Demo:
 https://user-images.githubusercontent.com/68997923/146527912-9e428979-2835-46ed-8e7a-5d6ea588f357.mov
 
 <img src="https://user-images.githubusercontent.com/68997923/146528423-c02231d7-c8a5-41d7-8356-c600736a27ac.jpg" width="800px">
