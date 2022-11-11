@@ -1,4 +1,4 @@
-## ☄️💫 Data Visualization
+## ☄️💫 Data Visualization of Meteorite Landings
 
 
 
@@ -9,6 +9,7 @@ https://user-images.githubusercontent.com/68997923/141694386-097f3911-6ad5-48ff-
 
 
 
+### Click [here](https://jjeongin.github.io/micro-projects/Meteor/) to view a live web demo using p5.js
 
 ***Meteorites Landed on Earth☄️💫***
 
